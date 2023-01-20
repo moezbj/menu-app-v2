@@ -1,0 +1,61 @@
+.menu-item {
+    height: 450px;
+    cursor: pointer;
+  transition: height 0.8s ease-in-out;
+  overflow: hidden;
+  background-color: #c27b25;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+.open-item {
+  height: 450px;
+  transition: height 0.8s ease-in-out;
+}
+
+.menu-content {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-content a {
+  padding-right: 10px;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu-content span {
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #ffb03b;
+  padding: 3px 5px;
+}
+
+ .menu-ingredients {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Comic Neue", sans-serif;
+  line-height: 22px;
+  color: #000;
+}
+@media (max-width: 992px) {
+  .specials .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+
+  .specials .nav-link.active {
+    color: #fff;
+    background: #ffb03b;
+  }
+}
+.name-product {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
