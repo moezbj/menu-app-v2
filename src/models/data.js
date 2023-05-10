@@ -73,15 +73,7 @@ const Desert = [
     description: " Lorem, deren, trataro, filede, nerada",
     img: Cake3,
     model: cakeModel3,
-  },
-  {
-    category: "Desert",
-    name: "lambo",
-    price: "$4.95",
-    description: " Lorem, deren, trataro, filede, nerada",
-    img: Cake3,
-    model: cakeModel4,
-  },
+  }
 ];
 const Plat = [
   {
