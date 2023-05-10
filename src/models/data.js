@@ -14,7 +14,7 @@ import cakeModel1 from "../assets/MENU/desert/cake1.glb";
 import cakeModel2 from "../assets/MENU/desert/cake2.glb";
 import cakeModel3 from "../assets/MENU/desert/lamborghini_urus_2018.glb";
 
-import pizzaModel1 from "../assets/MENU/pizza/1.glb";
+import pizzaModel1 from "../assets/MENU/pizza/lambo.glb";
 import pizzaModel2 from "../assets/MENU/pizza/2.glb";
 import pizzaModel3 from "../assets/MENU/pizza/3.glb";
 
