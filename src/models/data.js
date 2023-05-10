@@ -13,6 +13,7 @@ import plat3 from "../assets/MENU/plat/3.webp";
 import cakeModel1 from "../assets/MENU/desert/cake1.glb";
 import cakeModel2 from "../assets/MENU/desert/cake2.glb";
 import cakeModel3 from "../assets/MENU/desert/cake3.glb";
+import cakeModel4 from "../assets/MENU/desert/lamborghini_urus_2018.glb";
 
 import pizzaModel1 from "../assets/MENU/pizza/1.glb";
 import pizzaModel2 from "../assets/MENU/pizza/2.glb";
@@ -73,6 +74,14 @@ const Desert = [
     description: " Lorem, deren, trataro, filede, nerada",
     img: Cake3,
     model: cakeModel3,
+  },
+  {
+    category: "Desert",
+    name: "lambo",
+    price: "$4.95",
+    description: " Lorem, deren, trataro, filede, nerada",
+    img: Cake3,
+    model: cakeModel4,
   },
 ];
 const Plat = [
