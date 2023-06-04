@@ -1,34 +1,52 @@
 import React from "react";
-import ModelViewer from "../../models/ModelViewer";
 import classNames from "../../utils/classNames";
 import "./menuItem.css";
+import { Pannellum } from "pannellum-react";
+import ReactModal from "react-modal";
+const MenuItem = ({ name, className, img, onClick, open, secondModel }) => {
+  const imageUrl = secondModel;
 
-const MenuItem = ({
-  name,
-  price,
-  description,
-  className,
-  img,
-  model,
-  onClick,
-  open,
-}) => {
   return (
     <div className={classNames(`menu-item ${className ? className : ""}`)}>
       <div onClick={() => onClick(name)} className="menu-content">
         <span className="name-product">{name}</span>
-        <span className="name-product">{price}</span>
+        <span className="name-product">3D view</span>
       </div>
-      <div className="menu-ingredients">{description}</div>
-
       <div
         style={{
           width: "100%",
-          height: "85%",
         }}
       >
-        <ModelViewer modelPath={model} poster={img} />
+        <img src={img} alt="sz" style={{ width: "100%", height: "auto" }} />
       </div>
+      {open && (
+        <ReactModal
+          isOpen={open}
+          contentLabel="Minimal Modal Example"
+          className="modal"
+          overlayClassName="overlay"
+        >
+          <button onClick={onClick}>Close Modal</button>
+          <Pannellum
+            width="100%"
+            height="100%"
+            image={imageUrl}
+            pitch={10}
+            yaw={180}
+            hfov={110}
+            autoLoad
+            showZoomCtrl={false}
+          >
+            <Pannellum.Hotspot
+              type="custom"
+              pitch={12.41}
+              yaw={117.76}
+              handleClick={(evt, name) => console.log(name)}
+              name="image info"
+            />
+          </Pannellum>
+        </ReactModal>
+      )}
     </div>
   );
 };

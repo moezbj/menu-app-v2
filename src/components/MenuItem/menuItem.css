@@ -1,6 +1,6 @@
 .menu-item {
-    height: 450px;
-    cursor: pointer;
+  height: fit-content;
+  cursor: pointer;
   transition: height 0.8s ease-in-out;
   overflow: hidden;
   background-color: #c27b25;
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .menu-content a {
@@ -36,7 +37,7 @@
   padding: 3px 5px;
 }
 
- .menu-ingredients {
+.menu-ingredients {
   font-style: italic;
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
@@ -58,4 +59,21 @@
   font-size: 18px;
   font-weight: 600;
   color: #fff;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
