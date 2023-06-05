@@ -44,6 +44,7 @@ const MenuItem = ({
           style={{
             width: "100%",
             height: "85%",
+            position:'relative'
           }}
         >
           <ModelViewerPage modelPath={modelPath} poster={img} />{" "}
