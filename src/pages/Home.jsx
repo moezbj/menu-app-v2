@@ -10,6 +10,7 @@ const DetailCategory = () => {
     setItemMenu(e);
     setOpen(!open);
   };
+  
   return (
     <div className="details-container">
       <div className="menu-container">
@@ -20,6 +21,7 @@ const DetailCategory = () => {
             name={e.name}
             description={e.description}
             img={e.img}
+            modelPath={e.modelPath}
             secondModel={e.secondModel}
             open={open && e.name === itemMenu}
           />
