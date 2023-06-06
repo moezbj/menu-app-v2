@@ -52,7 +52,7 @@
 
   .specials .nav-link.active {
     color: #fff;
-    background: #ffb03b;
+    background: #c27b25;
   }
 }
 .name-product {
@@ -80,32 +80,38 @@
 
 ._2iLxz {
   left: 20% !important;
+  color: #fff !important;
+  background: #ffb03b !important;
+  border: 1px solid #c27b25 !important;
+
 }
 .test_btn {
   position: absolute;
-  left: 40% !important;
+  right: 20% !important;
   bottom: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   font-size: 1.25rem;
-  border: 2px solid #a9a9a9;
   border-radius: 25px;
-  color: #383838;
+  color: #fff;
+  background: #ffb03b;
+  border: 1px solid #c27b25;
   height: 54px;
+  padding: 0px 16px;
 }
 .back {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  border: 2px solid #a9a9a9;
   border-radius: 25px;
-  color: #383838;
+  color: #fff;
+  background: #ffb03b;
+  border: 1px solid #c27b25;
   height: 32px;
   padding: 0px 13px;
   margin-top: 5px;
   margin-left: 5px;
-
 }
