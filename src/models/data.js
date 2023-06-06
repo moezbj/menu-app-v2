@@ -9,7 +9,7 @@ import car3 from "../assets/cars/urus_yellow.jpg";
 
 import yellow from "../assets/MENU/Yellow.glb";
 import orange from "../assets/MENU/orange3.glb";
-import rolls from "../assets/MENU/rolls.glb";
+// import rolls from "../assets/MENU/rolls.glb";
 
 const Pizza = [
   /* {
